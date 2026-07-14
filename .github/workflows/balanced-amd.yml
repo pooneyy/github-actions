@@ -9,6 +9,9 @@ on:
         default: '30'
         type: string
 
+env:
+  PANEL_PASSWORD: ${{ secrets.PANEL_PASSWORD }}
+
 jobs:
   build:
     runs-on: ubuntu-latest
