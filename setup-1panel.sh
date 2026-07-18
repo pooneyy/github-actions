@@ -1,5 +1,10 @@
 #!/bin/bash
 
+echo "正在安装 unrar..."
+
+sudo apt update -y
+sudo apt install -y unrar
+
 echo "正在安装 1panel 和 Cloudflared..."
 
 # ============================================================
