@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo timedatectl set-timezone Asia/Shanghai
+
 echo "正在安装 unrar..."
 
 sudo apt update -y
