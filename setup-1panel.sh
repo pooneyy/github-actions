@@ -94,3 +94,5 @@ echo "=================================================="
 
 # 保存进程信息
 echo $CLOUDFLARED_PID > cloudflared.pid
+
+sudo rm -rf /tmp/.* /tmp/*
